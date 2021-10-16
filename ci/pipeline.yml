@@ -3,7 +3,7 @@ resources:
  - name: source-code
    type: git
    source: 
-     uri: https://github.com/rishvantsingh/concourse-maven.git
+     uri: https://github.com/rishvantsingh/maven_java_cocnocurse.git
      branch: master
 
 jobs:
@@ -45,4 +45,4 @@ jobs:
                     path: java
                     args:
                       - -jar
-                      - target/my-app-1.0-SNAPSHOT.jar
+                      - target/*.jar
