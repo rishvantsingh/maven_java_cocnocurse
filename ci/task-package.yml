@@ -1,0 +1,15 @@
+---
+plaform: linux
+image_resource:
+    type: docker-image
+    source: {repository: maven}
+
+inputs: 
+   - name: source-code
+
+outputs:
+  - name: target
+    path: source-code/target
+
+run: 
+   path: source-code/ci/task-script.sh
