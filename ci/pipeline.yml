@@ -45,4 +45,4 @@ jobs:
                     path: java
                     args:
                       - -jar
-                      - target/*.jar
+                      - target/sample-application-for-jenkins-1.0-SNAPSHOT.jar
